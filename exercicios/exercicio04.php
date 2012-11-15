@@ -31,6 +31,9 @@
 		<h3>Letra D</h3>
 		<?php
 			$num1 = 3;
+			
+			
+			
 			$num2 = 5;
 			$a = 1;
 			$soma = 0;
