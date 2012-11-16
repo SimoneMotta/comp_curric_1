@@ -1,48 +1,101 @@
 <?php
-# TIPOS DE COMENTÁRIOS:
-// ou # ou /* */
-echo "<h1>Olá Mundo!</h1>";
 
-$nome1 = "Tia Chica";
-$nome2 = "Zé Bustica";
+  // phpinfo();
 
-echo $nome1 , "estudou na" , $nome2. "<br/>";
+  # codigo php
+  // comentario em linha
+  /*
+    comentario em blogo
+  */
 
-echo "($nome1) estudou na ($nome2)"; 
+  echo "<h1>Ola mundo</h1>";
 
-# Tipos de variáveis:
+  $nome1 = "Tiago Link";
+  $texto2 = "Unoesc";
 
-#float
-$numero1 = 34.2;
+  echo $nome1 . " estudou na " . $texto2. "<br/>";
 
-#int
-$numero2 = 123;
+  echo "$nome1 estudou na $texto2 <br>";
 
-#String
-$string = "texto";
+  echo '$nome1 estudou na $texto2<br>';
 
-#Boolean
-$bool = True;
+  echo "{$nome1} estudou na {$texto2}";
 
-#Array
-$lista = array("Valor1", 1234, "Valor3");
+  # Tipos de Variáveis
 
-# > 5.4
-lista = ("Valor1" , 1234 , "teste");
+  # Float
+  $numero1 = 34.2;
 
-echo $Lista2(nome1)
+  # Int
+  $nuemro2 = 123;
 
-# PARA TROACR O VALOR DAS VAREAVEIS
-string - (int) "3 coisas";
+  # String
+  $string = "Texto";
 
+  # Boolean
+  $bool = True;
 
+  # Array
+  $lista = array("valor1", 12313, "valor 3");
 
+  # > 5.4
+  // $lista = ["valor 1", 123123, "teste"];
 
-$frutas = array("maca", "banana", "pera", "uva");
+  echo "<h2>Listas</h2>";
+  echo $lista[0];
+
+  $lista[] = 123132;
+
+  # array["indice"] = valor
+
+  $lista2["nome"] = "Tiago";
+
+  echo $lista2["nome"];
+
+  echo "<h2>Convertendo</h2>";
+
+  $string = (int) "3 porquinhos";
+  $string2 = (int) "porquinhos 3";
+
+  echo $string . "<br>"; // 3
+
+  echo $string2 . "<br>"; // 0
+
+  echo "<h2>foreach</h2>";
+
+  $frutas = array("maca", "banana", "pera", "uva");
 ?>
 
-<ul>
-	<?php foreach ($frutas as $fruta) ( ?>
-	<li> <?php echo $fruta ?></li>
-	<?php)
-</ul>
+  <ul>
+    <?php  foreach ($frutas as $indice => $fruta) { ?>
+    <li><?php echo $indice . ": " . $fruta; ?></li>
+    <?php  } ?>
+  </ul>
+
+  <hr>
+
+  <ul>
+    <?php  for ($i=0; $i < count($frutas); $i++) { ?>
+       <li><?php echo $i . ": ".$frutas[$i]; ?> </li>
+    <?php } ?>
+  </ul>
+
+  <?php
+
+  $computador = array("memoria" => 512, "proc" => "Quad-Core", "hd" => "1TB");
+
+  $lista = array(0 => "maca", 1 => "banana");
+
+  // echo $computador["memoria"];
+  ?>
+
+  <h2>Computador</h2>
+
+  <ul>
+    <?php  foreach ($computador as $indice => $valor) { ?>
+    <li><?php echo $indice . ": " . $valor; ?></li>
+    <?php  } ?>
+  </ul>
+
+  <hr>
+

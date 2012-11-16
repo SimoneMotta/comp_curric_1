@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
 
-    <title>Bootstrap, from Twitter</title>
+    <title>Pagina 1</title>
    
   <body>
 

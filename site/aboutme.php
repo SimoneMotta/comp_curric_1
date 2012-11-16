@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
 
-    <title>Bootstrap, from Twitter</title>
+    <title> AboutMe</title>
    
   <body>
 
@@ -32,7 +32,29 @@
         </div>
       </div>
     </div>
+    <div class="span20">
+                    <div class="well">
+                      <br>
+                     <p>
+                        <b> Nome: Simone Motta</b> <br/>
+                        Profissão: Estagiaria no setor de habitação da prefeitura Municipal de Abelardo Luz e estudante de Tecnologia em Analise e Desenvolvimento de Sistemas  <br/> <br/>
+                        <b> CONHECIMENTO </b> <br/> 
+                        • C<br/>
+                        • Java(Progamação Orienteda a Objetos) <br/>
+                        • Html <br/>
+                        • Css <br/>
+                        • Xhtml <br/> <br/>
 
+
+                        <b> OBJETIVOS PESSOAIS E PROFISSIONAIS</b>
+                        Objetivos Pessoais:<br/>
+                        Mudar de cidade.<br/>
+                        Estar realizada profissionalmente.<br/>
+                        Objetivos Profissionais:<br/>
+                        Trabalhar na área voltada para desenvolvimento web.<br/>
+                      </p>
+                  </div>
+              </div>
    
   </body>
 </html>

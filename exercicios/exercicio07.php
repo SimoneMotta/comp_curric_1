@@ -2,15 +2,12 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>PHP</title>
+		<title>Exercicio 7</title>
 	</head>
 	<body>
-		<h2> a) ARRAY</h2>
-		<?php
-			
-			
-		?>
+	<?php $totalVar = array("1223", "231", "1234"); ?>
+	<p> <?php echo $totalVar; ?> </p>
 
-		
+	
 	</body>
 </html>
