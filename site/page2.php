@@ -1,42 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-
     <title>Pagina 2</title>
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Site Exemplo Bootstrap PG 2">
+    <meta name="author" content="Simone Motta">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    
+    <!-- Comentaro Condicional se o IE > 9 o navegador vai ler o q tem em comoentario no codigo-->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+     </head>
+
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top">  <!-- deixa o menu fixo mesmo  -->
       <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Bootstrap</a>
+        <div class="container-fluid">
+          <a class="brand" href="# page1.php">Pagina 1</a>
           <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Page 2</a></li>
-              <li><a href="#Page1">Page 1</a></li>
-              <li><a href="#Aboutt">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-               
-                </ul>
-              </li>
+              <ul class="nav">
+              <li class="active"><a href="# page2.php">Pagina 2</a></li>
+              <li><a href="#aboutme.php">About</a></li>
+              <li><a href="#contact.php">Contact</a></li>
             </ul>
-           
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
-      <div class="span10">
-                    <div class="well">
-                      <br>
-                        <h1> Mussum Ipsum </h1>
-                       
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Sidebar</li>
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="nav-header">Sidebar</li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="nav-header">Sidebar</li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+
+        <div class="span9">
+          <div class="hero-unit">
+            <h1>Pagina 2!</h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            
+          </div>                       
                         <p>
                           Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
                          <p>
@@ -63,10 +103,19 @@
                           accumsan ipsum elementum gravida. Quisque vitae metus id massa tincidunt iaculis
                           sed sed purus. Vestibulum viverra lobortis faucibus. Vestibulum et turpis.
                         </p>         
-                                        
-                         </div>
-                </div>
-   
-   
+                      </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2012</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
   </body>
 </html>
+
