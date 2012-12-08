@@ -1,0 +1,1163 @@
+2012-09-04 18:04:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/cakeStrap/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-04 18:22:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/cakeStrap/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-04 18:35:02 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/cakeStrap/app/View/Layouts/default.ctp, line 21]
+2012-09-04 18:35:02 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#2 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#3 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:03:19 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [C:\xampp\htdocs\caketeste\app\Model\User.php, line 8]
+2012-10-31 17:03:19 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:05:50 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\caketeste\app\Model\User.php, line 8]
+2012-10-31 17:05:50 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:41:23 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-31 18:51:48 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Posts\view.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-14 17:53:40 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Posts\add.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-14 18:17:24 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\caketeste\app\View\Posts\index.ctp, line 5]
+2012-11-14 18:17:25 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 21:24:31 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)" is missing, or could not be created.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(3180): Model->setSource('users')
+#5 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#6 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#7 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/Helper/FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/View/Elements/form_login.ctp(19): FormHelper->create('User', Array)
+#9 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(920): include('/Users/tiagolin...')
+#10 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(883): View->_evaluate('/Users/tiagolin...', Array)
+#11 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(424): View->_render('/Users/tiagolin...', Array)
+#12 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/View/Pages/home.ctp(65): View->element('form_login')
+#13 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(920): include('/Users/tiagolin...')
+#14 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(883): View->_evaluate('/Users/tiagolin...', Array)
+#15 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(475): View->_render('/Users/tiagolin...')
+#16 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#17 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#18 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-11-27 21:24:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:24:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:26:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:06 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:32:00 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:32:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:32:37 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:32:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:30 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:31 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:32 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:43 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-27 21:52:09 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:52:50 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:52:57 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-27 22:29:32 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-27 23:49:44 Error: [MissingControllerException] Controller class HelloController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:52:05 Error: [MissingActionException] Action HelloController::index() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-27 23:53:54 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:00:35 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:01:51 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:02:01 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:02:07 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:03:25 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:04:19 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:04:29 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:04:46 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:07:47 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:08:07 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:10:06 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 18:16:11 Error: [MissingActionException] Action PostsController::index() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 18:17:09 Error: [MissingActionException] Action PostsController::index() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 18:22:44 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\app\Controller\PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-28 18:23:40 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\app\Controller\PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-28 18:30:20 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1049] Unknown database 'posts'" is missing, or could not be created.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('posts')
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#6 C:\xampp\htdocs\simone_motta\blog\app\Controller\PostsController.php(8): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-28 22:01:40 Error: Fatal Error (4): syntax error, unexpected 'extendes' (T_STRING), expecting '{' in [C:\xampp\htdocs\simone_motta\blog\app\Model\Post.php, line 2]
+2012-11-28 22:01:40 Error: [FatalErrorException] syntax error, unexpected 'extendes' (T_STRING), expecting '{'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:17:09 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 22:19:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 22:47:15 Error: Fatal Error (1): Call to undefined function read() in [C:\xampp\htdocs\simone_motta\blog\app\Controller\PostsController.php, line 20]
+2012-11-28 22:47:15 Error: [FatalErrorException] Call to undefined function read()
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:48:20 Error: Fatal Error (1): Call to undefined function read() in [C:\xampp\htdocs\simone_motta\blog\app\Controller\PostsController.php, line 20]
+2012-11-28 22:48:20 Error: [FatalErrorException] Call to undefined function read()
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:48:47 Error: Fatal Error (1): Call to undefined function read() in [C:\xampp\htdocs\simone_motta\blog\app\Controller\PostsController.php, line 20]
+2012-11-28 22:48:47 Error: [FatalErrorException] Call to undefined function read()
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:26:49 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\simone_motta\blog\app\Controller\PostsController.php, line 42]
+2012-11-28 23:26:49 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:27:00 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\simone_motta\blog\app\Controller\PostsController.php, line 42]
+2012-11-28 23:27:00 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:27:32 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\simone_motta\blog\app\Controller\PostsController.php, line 42]
+2012-11-28 23:27:32 Error: [FatalErrorException] syntax error, unexpected end of file
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:28:26 Error: [MissingHelperException] Helper class forHelper could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('for')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(812): HelperCollection->__isset('for')
+#2 C:\xampp\htdocs\simone_motta\blog\app\View\Posts\add.ctp(4): View->__get('for')
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 23:29:03 Error: [MissingHelperException] Helper class forHelper could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('for')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(812): HelperCollection->__isset('for')
+#2 C:\xampp\htdocs\simone_motta\blog\app\View\Posts\add.ctp(4): View->__get('for')
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 23:29:08 Error: [MissingHelperException] Helper class forHelper could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('for')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(812): HelperCollection->__isset('for')
+#2 C:\xampp\htdocs\simone_motta\blog\app\View\Posts\add.ctp(4): View->__get('for')
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 23:29:46 Error: [MissingHelperException] Helper class forHelper could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('for')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(812): HelperCollection->__isset('for')
+#2 C:\xampp\htdocs\simone_motta\blog\app\View\Posts\add.ctp(4): View->__get('for')
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 23:29:48 Error: [MissingHelperException] Helper class forHelper could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('for')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(812): HelperCollection->__isset('for')
+#2 C:\xampp\htdocs\simone_motta\blog\app\View\Posts\add.ctp(4): View->__get('for')
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 23:30:46 Error: [MissingHelperException] Helper class forHelper could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('for')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(812): HelperCollection->__isset('for')
+#2 C:\xampp\htdocs\simone_motta\blog\app\View\Posts\add.ctp(4): View->__get('for')
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 23:31:03 Error: [MissingHelperException] Helper class forHelper could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('for')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(812): HelperCollection->__isset('for')
+#2 C:\xampp\htdocs\simone_motta\blog\app\View\Posts\add.ctp(4): View->__get('for')
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-28 23:44:23 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 29]
+2012-11-28 23:44:23 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 29, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 29, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:26:30 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 01:26:30 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:28:16 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 01:28:16 Error: [FatalErrorException] syntax error, unexpected ','
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:32:36 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 41]
+2012-12-01 01:32:36 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:38:26 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 9]
+2012-12-01 03:38:26 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:43:45 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 9]
+2012-12-01 03:43:45 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:45:42 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 11]
+2012-12-01 03:45:42 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:51:10 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 9]
+2012-12-01 03:51:10 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 04:04:26 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ';' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 10]
+2012-12-01 04:04:26 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ';'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 04:06:31 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 12]
+2012-12-01 04:06:31 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 04:06:34 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 12]
+2012-12-01 04:06:34 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 04:07:25 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 12]
+2012-12-01 04:07:25 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 04:07:29 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 12]
+2012-12-01 04:07:29 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 04:08:35 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 12]
+2012-12-01 04:08:35 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 04:10:36 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 10]
+2012-12-01 04:10:36 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 04:59:31 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 12]
+2012-12-01 04:59:31 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 05:03:54 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ';' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 12]
+2012-12-01 05:03:54 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ';'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 05:04:19 Error: Fatal Error (4): syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 11]
+2012-12-01 05:04:19 Error: [FatalErrorException] syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 06:04:13 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 50]
+2012-12-01 06:04:13 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 06:06:13 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 51]
+2012-12-01 06:06:13 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 06:07:04 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 50]
+2012-12-01 06:07:04 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 06:07:27 Error: Fatal Error (4): syntax error, unexpected '"Deletar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 50]
+2012-12-01 06:07:27 Error: [FatalErrorException] syntax error, unexpected '"Deletar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 06:07:56 Error: Fatal Error (4): syntax error, unexpected '"Deletar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 50]
+2012-12-01 06:07:56 Error: [FatalErrorException] syntax error, unexpected '"Deletar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 06:07:59 Error: Fatal Error (4): syntax error, unexpected '"Deletar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 50]
+2012-12-01 06:07:59 Error: [FatalErrorException] syntax error, unexpected '"Deletar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 03:48:10 Error: [MissingActionException] Action HelloController::aboutme() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 03:51:02 Error: [MissingActionException] Action HelloController::aboutme() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 03:51:45 Error: [MissingActionException] Action HelloController::aboutme() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 03:51:46 Error: [MissingActionException] Action HelloController::aboutme() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 03:52:26 Error: [MissingActionException] Action HelloController::aboutme() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-06 03:55:07 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 04:37:31 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('1')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 04:44:27 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 04:44:59 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete()
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 04:48:17 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 04:53:03 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 05:27:35 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 05:33:41 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 05:34:43 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 05:38:22 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 05:45:34 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 05:45:48 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 16]
+2012-12-06 05:45:48 Error: [FatalErrorException] Call to a member function link() on a non-object
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 16, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 16, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 05:46:22 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete()
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 05:55:35 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete()
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 05:55:38 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete()
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 05:55:47 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 52]
+2012-12-06 05:55:47 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 05:56:33 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 52]
+2012-12-06 05:56:33 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 05:56:41 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 52]
+2012-12-06 05:56:41 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 05:57:47 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 52]
+2012-12-06 05:57:47 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 05:58:44 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 52]
+2012-12-06 05:58:44 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 05:59:24 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('1')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 06:00:53 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: PostsController->delete('4')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 06:08:52 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 06:09:53 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 06:10:37 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 06:14:07 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 06:14:08 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 06:14:09 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Posts\delete.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 06:20:42 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 55]
+2012-12-06 06:20:42 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 06:23:32 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 55]
+2012-12-06 06:23:32 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 55, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 06:26:18 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\simone_motta\blog\app\View\Posts\index.ctp, line 54]
+2012-12-06 06:26:18 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 54, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 54, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 18:14:05 Error: [MissingControllerException] Controller class ProdutrosController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 18:23:50 Error: [MissingControllerException] Controller class ProdutrosController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 18:28:44 Error: Fatal Error (4): syntax error, unexpected ''validity'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\simone_motta\blog\app\Model\Produto.php, line 12]
+2012-12-06 18:28:44 Error: [FatalErrorException] syntax error, unexpected ''validity'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 18:50:33 Error: [MissingControllerException] Controller class ProdutosController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 18:51:07 Error: Fatal Error (4): syntax error, unexpected ''validity'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\simone_motta\blog\app\Model\Product.php, line 12]
+2012-12-06 18:51:07 Error: [FatalErrorException] syntax error, unexpected ''validity'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 18:51:52 Error: [MissingTableException] Table products for model Product was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('products')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\app\Controller\ProductsController.php(10): Model->find('all')
+#3 [internal function]: ProductsController->index()
+#4 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-06 18:52:48 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Products\index.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 18:53:43 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Products\index.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 18:56:21 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Products\index.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 18:57:13 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Products\index.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 18:57:38 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Products\index.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 19:01:23 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Products\index.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 19:01:30 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Products\index.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 19:04:01 Error: [MissingViewException] View file "C:\xampp\htdocs\simone_motta\blog\app\View\Products\index.ctp" is missing.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-06 21:01:33 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\simone_motta\blog\app\Model\Product.php, line 14]
+2012-12-06 21:01:33 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-06 21:10:39 Error: [MissingActionException] Action ProductsController::editar() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-08 15:50:01 Error: [MissingActionException] Action ProductsController::enviar() could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
