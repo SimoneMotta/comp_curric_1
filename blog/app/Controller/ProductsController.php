@@ -3,7 +3,7 @@
 class ProductsController extends AppController {
 
     public $helpers = array('Html','Form');
-    public $name ='Products';
+  
     public $components = array("Session");
    
     //action
@@ -27,7 +27,7 @@ class ProductsController extends AppController {
     # /post/add
     public function add(){
     	# se for enviado um Post pegar dados de fora e salvar no banco
-    	  if ($this->request->is('product')) {
+    	  if ($this->request->is('post')) {
     	  	
             $dadosDoFormulario = $this->request->data;
             # tentar salvar os dados no banco
@@ -47,18 +47,18 @@ class ProductsController extends AppController {
             $this->request->data = $this->Product->read();
         } else {
             if ($this->Product->save($this->request->data)) {
-                $this->Session->setFlash('Your product has been updated.');
+                $this->Session->setFlash('Seu produto foi editado.');
                 $this->redirect(array('action' => 'index'));
             }
         }
     }
 
     function delete($id) {
-        if (!$this->request->is('product')) {
+        if (!$this->request->is('post')) {
             throw new MethodNotAllowedException();
         }else {
         if ($this->Product->delete($id)) {
-            $this->Session->setFlash('The product with id: ' . $id . ' has been deleted.');
+            $this->Session->setFlash('O produto com códido: ' . $id . ' foi deletado.');
             $this->redirect(array('action' => 'index'));
             }
         }

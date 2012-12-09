@@ -21,7 +21,7 @@
                 <th>Código</th>
                 <th>Título</th>
                 <th>Texto</th>
-                <th>Atualizado em</th>
+                <th>Creado em</th>
                 <th>Modificado em</th>
                 <th colspan="3">Ações</th>
             </tr>

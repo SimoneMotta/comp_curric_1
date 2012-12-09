@@ -6,10 +6,13 @@
         'name' => array(
             'rule' => 'notEmpty'
         ),
+         'weight' => array(
+            'rule' => 'notEmpty'
+        ),
         
         'valid' => array(
             'rule' => 'notEmpty'
-        )
+        ),
         );
 
 	}

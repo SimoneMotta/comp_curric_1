@@ -8,7 +8,8 @@
     <p>                    
         <?php echo $this->Html->link ("Novo Item",
                 array('controller'=> 'products', 'action'=>'add'),
-                array('class'=>'btn btn-success')); ?>        
+                array('class'=>'btn btn-success')); ?>   
+
     </p>        
 
 
@@ -19,7 +20,7 @@
                 <th>Nome</th>
                 <th>Peso</th>
                 <th>Validade</th>
-                <th>Atualizado em</th>
+                <th>Criado em</th>
                 <th>Modificado em</th>
                 <th colspan="3">Ações</th>
             </tr>
@@ -52,6 +53,8 @@
                                     array('controller'=>'Products','action'=>'delete',
                                     $product["Product"]["id"]),
                                    array('confirm' => 'Are you sure?')); ?>  
+
+
                         </div>
                     </td>
 
@@ -62,7 +65,7 @@
         </tbody>
     </table>
 
-    <div class="navbar">
+    <div class= "navbar navbar-inverse">
          <div class="navbar-inner">
             
             <ul class="nav">
